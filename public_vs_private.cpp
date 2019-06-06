@@ -24,7 +24,7 @@ f_dpublic(dPublic); // GOOD: dPublic type object
 
 //showing private inheritance
 f_dprivate(dPrivate); // GOOD: dPrivate type object
-f_base(dPrivate); // ERROR!! because dPrivate is not of type base
+//f_base(dPrivate); // ERROR!! because dPrivate is not of type base
 
 return 0;
 }
