@@ -1,10 +1,7 @@
 #include<iostream>
 using namespace std;
 
-
 /* Static Casting Examples*/
-
-
 
 //dependent classes
 class A{};
@@ -88,56 +85,3 @@ int main(){
 	i = b_conv;//GOOD:conversion of B_unrelatedConversion to int
 	i = static_cast<B_unrelatedConversion>(b_conv);//GOOD:conversion of B_unrelatedConversion to int
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
